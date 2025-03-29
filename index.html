@@ -8,6 +8,15 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <h1>Etch-A-Sketch!</h1>
+    <div id="buttons">
+        <button onclick="createGrid()" class="editBtn">Grid Size</button>
+        <button class="editBtn" value="bw" onclick="changeColorChoice(value)">B&W</button>
+        <button class="editBtn" value="rgb" onclick="changeColorChoice(value)">RGB</button>
+        <button onclick="clearGrid(container)" class="editBtn">Delete</button>
+    </div>
+        
     <div id="container"></div>
+</div>
 </body>
 </html>
